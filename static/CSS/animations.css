@@ -1,0 +1,56 @@
+/* =========================================================
+   animations.css — Scroll-reveal utilities & keyframes
+========================================================= */
+
+/* ── Reveal on scroll ────────────────────────────────────── */
+.reveal {
+  opacity: 0;
+  transform: translateY(36px);
+  transition: opacity .7s ease, transform .7s ease;
+}
+.reveal.visible { opacity: 1; transform: translateY(0); }
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: opacity .7s ease, transform .7s ease;
+}
+.reveal-left.visible { opacity: 1; transform: translateX(0); }
+
+.reveal-right {
+  opacity: 0;
+  transform: translateX(40px);
+  transition: opacity .7s ease, transform .7s ease;
+}
+.reveal-right.visible { opacity: 1; transform: translateX(0); }
+
+/* ── Stagger children ────────────────────────────────────── */
+.stagger > * {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity .6s ease, transform .6s ease;
+}
+.stagger.visible > *:nth-child(1) { opacity:1; transform:none; transition-delay:.05s; }
+.stagger.visible > *:nth-child(2) { opacity:1; transform:none; transition-delay:.15s; }
+.stagger.visible > *:nth-child(3) { opacity:1; transform:none; transition-delay:.25s; }
+.stagger.visible > *:nth-child(4) { opacity:1; transform:none; transition-delay:.35s; }
+.stagger.visible > *:nth-child(5) { opacity:1; transform:none; transition-delay:.45s; }
+.stagger.visible > *:nth-child(6) { opacity:1; transform:none; transition-delay:.55s; }
+
+/* ── Pulse (used in hero kicker dot) ────────────────────── */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: .3; }
+}
+
+/* ── Orbit ring spin ────────────────────────────────────── */
+@keyframes orbit-spin { to { transform: rotate(360deg); } }
+
+/* ── Hue-rotate on photo ring ───────────────────────────── */
+@keyframes rotate-ring { to { filter: hue-rotate(360deg); } }
+
+/* ── Scroll-down bounce ─────────────────────────────────── */
+@keyframes bounce {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50%       { transform: translateX(-50%) translateY(8px); }
+}

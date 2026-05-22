@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohamed Abdelazem | Web Developer Portfolio</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="static/CSS/base.css" />
+  <link rel="stylesheet" href="static/CSS/ui.css" />
+  <link rel="stylesheet" href="static/CSS/animations.css" />
+  <link rel="stylesheet" href="static/CSS/sections.css" />
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════════════
+       NAV
+  ═══════════════════════════════════════ -->
+  <nav>
+    <div class="container">
+      <div class="nav-logo">Mohamed.dev</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- ═══════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════ -->
+  <section id="hero">
+    <div class="floating-bubbles">
+      <span class="b1"></span>
+      <span class="b2"></span>
+      <span class="b3"></span>
+    </div>
+
+    <div class="container">
+      <div class="hero-grid">
+
+        <!-- Text -->
+        <div>
+          <div class="hero-kicker reveal">
+            <span class="dot"></span>
+            Aspiring Web Developer · 3rd Preparatory Student
+          </div>
+
+          <h1 class="hero-name reveal" style="transition-delay:.1s">
+            Mohamed<br />
+            <span class="grad">Abdelazem</span>
+          </h1>
+
+          <p class="hero-role reveal" style="transition-delay:.2s">Full Stack Developer in Progress</p>
+
+          <p class="hero-bio reveal" style="transition-delay:.3s">
+            I'm a dedicated student passionate about web development, STEM fields, and creating real-world applications.
+            With interests in reading, cinema, and technology, I'm building my portfolio with Python, HTML, CSS, and
+            JavaScript projects.
+          </p>
+
+          <div class="hero-actions reveal" style="transition-delay:.4s">
+            <a href="#projects" class="btn btn-primary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M13 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V9z" />
+                <polyline points="13 2 13 9 20 9" />
+              </svg>
+              View My Projects
+            </a>
+            <a href="Mohammed_Abdelazim_CV.pdf" download="Mohammed_Abdelazim_CV.pdf" class="btn btn-ghost">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              Download CV
+            </a>
+          </div>
+
+          <div class="hero-contact-links reveal" style="transition-delay:.5s">
+            <a href="https://github.com/mohamedabdelazim618" target="_blank" class="contact-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+              </svg>
+              GitHub
+            </a>
+            <a href="mailto:mohamed.moaz.nasr@gmail.com" class="contact-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="4" width="20" height="16" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+              Email
+            </a>
+            <a href="https://wa.me/97337076519" target="_blank" class="contact-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.983 1.26 9.869 9.869 0 00-3.393 3.384 9.872 9.872 0 001.515 12.02 9.87 9.87 0 004.983 1.26h.005a9.884 9.884 0 009.884-9.884c0-2.635-.54-5.218-1.597-7.653a9.86 9.86 0 00-3.403-3.403c-2.436-1.059-5.02-1.594-7.602-1.594" />
+              </svg>
+              WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Photo -->
+        <div class="hero-photo-wrap reveal-left" style="transition-delay:.2s">
+          <div class="orbit"></div>
+          <div class="hero-photo-ring">
+            <div class="hero-photo-inner"><img src="static/images/profile.jpg" alt="Mohamed Abdelazem"
+                style="width:100%;height:100%;object-fit:cover;border-radius:50%"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="scroll-cue">
+      <span>Scroll to explore</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 5v14M5 12l7 7 7-7" />
+      </svg>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       STATS
+  ═══════════════════════════════════════ -->
+  <div class="stats-strip">
+    <div class="container">
+      <div class="stats-grid stagger">
+        <div>
+          <div class="stat-num" data-count="4">0</div>
+          <div class="stat-label">Projects Completed</div>
+        </div>
+        <div>
+          <div class="stat-num" data-count="3">0</div>
+          <div class="stat-label">Programming Languages</div>
+        </div>
+        <div>
+          <div class="stat-num" data-count="5">0</div>
+          <div class="stat-label">Frameworks & Tools</div>
+        </div>
+        <div>
+          <div class="stat-num" data-count="100">0</div>
+          <div class="stat-label">Passion Level</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════
+       ABOUT
+  ═══════════════════════════════════════ -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-title">About Me</div>
+        <p class="section-sub">My journey into web development and what drives my passion</p>
+      </div>
+
+      <div class="about-grid reveal-left">
+        <div>
+          <h3 style="color: var(--c-text); margin-bottom: 16px; font-size: 1.3rem;">Who I Am</h3>
+          <p style="line-height: 1.8; color: var(--c-text); margin-bottom: 16px;">
+            I'm Mohamed Abdelazem Farid Nasr, a 3rd preparatory student with a deep passion for technology and web
+            development.
+            I'm dedicated to expanding my technical skills and achieving my goal of becoming a professional web
+            developer.
+          </p>
+          <p style="line-height: 1.8; color: var(--c-text); margin-bottom: 16px;">
+            Beyond coding, I'm keen on STEM fields—particularly Science and Mathematics—and I enjoy reading, cinema, and
+            video games.
+            These interests fuel my creativity and problem-solving abilities.
+          </p>
+          <p style="line-height: 1.8; color: var(--c-text);">
+            I believe in learning by doing, building real-world applications, and constantly pushing myself to master
+            new technologies.
+          </p>
+        </div>
+        <div>
+          <h3 style="color: var(--c-text); margin-bottom: 16px; font-size: 1.3rem;">My Approach</h3>
+          <div style="display: grid; gap: 16px;">
+            <div class="about-card">
+              <div class="about-icon">🎯</div>
+              <h4>Goal-Oriented</h4>
+              <p>Clear vision and concrete steps toward becoming a full-stack developer</p>
+            </div>
+            <div class="about-card">
+              <div class="about-icon">📚</div>
+              <h4>Continuous Learning</h4>
+              <p>Always exploring new frameworks, languages, and best practices</p>
+            </div>
+            <div class="about-card">
+              <div class="about-icon">💡</div>
+              <h4>Problem Solver</h4>
+              <p>Turning ideas into functional, user-friendly applications</p>
+            </div>
+            <div class="about-card">
+              <div class="about-icon">🤝</div>
+              <h4>Collaborative</h4>
+              <p>Comfortable working with teams and learning from experienced developers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       PROJECTS
+  ═══════════════════════════════════════ -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-title">My Projects</div>
+        <p class="section-sub">Real-world applications showcasing my skills in Python, web development, and
+          problem-solving</p>
+      </div>
+
+      <div class="projects-grid stagger">
+
+
+        <!-- 01 Course Booking -->
+        <div class="project-card">
+          <div class="project-preview" style="background:#0a0e1a;padding:0;overflow:hidden"><img
+              src="static\images\pro5 Screenshot.png" alt="pro5_dash"
+              style="width:100%;height:100%;object-fit:cover;object-position:top;opacity:.92;transition:transform .4s;display:block"
+              onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform=''"></div>
+          <div class="project-body">
+            <div class="project-number">01 / pro5</div>
+            <h3 class="project-title">نظام حجز الدورات</h3>
+            <p class="project-desc">منصة تعليمية بنظام تسجيل دخول كامل — User auth، رفع ملفات PDF، حجز دورات تدريبية，
+              Sessions وCookies، وإعدادات آمنة بـ .env.</p>
+            <div class="tech-tags">
+              <span class="tag">Python</span>
+              <span class="tag cyan">Flask</span>
+              <span class="tag">Auth</span>
+              <span class="tag orange">File Upload</span>
+              <span class="tag">.env</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 02 Vezeeta System -->
+        <div class="project-card">
+          <div class="project-preview" style="background:#0a0e1a;padding:0;overflow:hidden"><img
+              src="static/images/vezeeta_system Screenshot.png" alt="Vezeeta System"
+              style="width:100%;height:100%;object-fit:cover;object-position:top;opacity:.92;transition:transform .4s;display:block"
+              onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform=''"></div>
+          <div class="project-body">
+            <div class="project-number">02 / Vezeeta System</div>
+            <h3 class="project-title">Doctor Appointment Booking System</h3>
+            <p class="project-desc">A complete healthcare booking platform inspired by Vezeeta. Features user
+              authentication, secure password hashing with Bcrypt, doctor listings, appointment booking system, and user
+              profiles. Built to demonstrate full-stack development capabilities.</p>
+            <div class="tech-tags">
+              <span class="tag">Python</span>
+              <span class="tag cyan">OOP</span>
+              <span class="tag">Authentication</span>
+              <span class="tag cyan">Bcrypt</span>
+            </div>
+            <a href="https://github.com/mohamedabdelazim618/Vezeeta_System_Project" target="_blank"
+              class="project-link">View on GitHub →</a>
+          </div>
+        </div>
+
+        <!-- 03 Flask Calculator -->
+        <div class="project-card">
+          <div class="project-preview" style="background:#0a0e1a;padding:0;overflow:hidden"><img
+              src="static/images/Flask calc Screenshot.png" alt="Flask Calculator"
+              style="width:100%;height:100%;object-fit:cover;object-position:top;opacity:.92;transition:transform .4s;display:block"
+              onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform=''"></div>
+          <div class="project-body">
+            <div class="project-number">03 / Flask Calculator</div>
+            <h3 class="project-title">Web-based Calculator Application</h3>
+            <p class="project-desc">My first Flask project—a web-based calculator that demonstrates routing, template
+              rendering with Jinja2, and form handling. Clean code architecture with separated calculation logic and
+              frontend interface.</p>
+            <div class="tech-tags">
+              <span class="tag">Python</span>
+              <span class="tag cyan">Flask</span>
+              <span class="tag orange">Jinja2</span>
+              <span class="tag">HTML/CSS</span>
+            </div>
+            <a href="https://github.com/mohamedabdelazim618/Flask_calculator" target="_blank" class="project-link">View
+              on GitHub →</a>
+          </div>
+        </div>
+
+        <!-- 04 Doctors DB -->
+        <div class="project-card">
+          <div class="project-preview" style="background:#0a0e1a;padding:0;overflow:hidden"><img
+              src="static\images\doctors_database Screenshot.png" alt="doctors database"
+              style="width:100%;height:100%;object-fit:cover;object-position:top;opacity:.92;transition:transform .4s;display:block"
+              onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform=''"></div>
+          <div class="project-body">
+            <div class="project-number">04 / Doctors Database</div>
+            <h3 class="project-title">Doctors Management Database</h3>
+            <p class="project-desc">A Flask + SQLAlchemy application for managing doctors' data with full CRUD
+              operations. Features HTML forms for adding, deleting, and searching doctors, plus a JSON API for
+              programmatic access. Demonstrates ORM integration with SQLite database.</p>
+            <div class="tech-tags">
+              <span class="tag">Python</span>
+              <span class="tag cyan">Flask</span>
+              <span class="tag">SQLAlchemy</span>
+              <span class="tag orange">SQLite</span>
+              <span class="tag cyan">JSON API</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 05 Airport System -->
+        <div class="project-card">
+          <div class="project-preview" style="background:#0a0e1a;padding:0;overflow:hidden"><img
+              src="static/images/airport_system Screenshot.png" alt="Airport System"
+              style="width:100%;height:100%;object-fit:cover;object-position:top;opacity:.92;transition:transform .4s;display:block"
+              onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform=''"></div>
+          <div class="project-body">
+            <div class="project-number">05 / Airport System</div>
+            <h3 class="project-title">Flight Management System</h3>
+            <p class="project-desc">A comprehensive airport management system featuring flight scheduling, passenger
+              booking, queue management, and real-time statistics. Demonstrates REST API design, OOP principles, and
+              complex data handling with SQLite.</p>
+            <div class="tech-tags">
+              <span class="tag">Python</span>
+              <span class="tag cyan">OOP</span>
+              <span class="tag">REST API</span>
+              <span class="tag orange">SQLite</span>
+            </div>
+            <a href="https://github.com/mohamedabdelazim618/airport_system" target="_blank" class="project-link">View on
+              GitHub →</a>
+          </div>
+        </div>
+
+        <!-- 06 TaskFlow Project -->
+        <div class="project-card">
+          <div class="project-preview" style="background:#0a0e1a;padding:0;overflow:hidden"><img
+              src="static/images/taskflow_project Screenshot.png" alt="TaskFlow Project"
+              style="width:100%;height:100%;object-fit:cover;object-position:top;opacity:.92;transition:transform .4s;display:block"
+              onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform=''"></div>
+          <div class="project-body">
+            <div class="project-number">06 / TaskFlow Project</div>
+            <h3 class="project-title">Task & Project Management Platform</h3>
+            <p class="project-desc">My largest project—a full-featured task management platform with user
+              authentication, project creation, task tracking, admin dashboard, and notifications. Demonstrates
+              professional code architecture with Blueprints and scalable design patterns.</p>
+            <div class="tech-tags">
+              <span class="tag">Python</span>
+              <span class="tag cyan">Flask</span>
+              <span class="tag">Blueprints</span>
+              <span class="tag orange">Admin Panel</span>
+            </div>
+            <a href="https://github.com/mohamedabdelazim618/taskflow_project" target="_blank" class="project-link">View
+              on GitHub →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       SKILLS
+  ═══════════════════════════════════════ -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-title">Skills & Technologies</div>
+        <p class="section-sub">Tools and technologies I've mastered in my learning journey</p>
+      </div>
+
+      <div class="skills-grid stagger">
+        <div class="skill-category">
+          <h3 class="skill-category-title">Languages</h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <span class="skill-name">Python</span>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">HTML5</span>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">CSS3</span>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">JavaScript</span>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-category-title">Frameworks & Libraries</h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <span class="skill-name">Flask</span>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">SQLAlchemy</span>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 80%"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       CONTACT
+  ═══════════════════════════════════════ -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-title">Get In Touch</div>
+        <p class="section-sub">Let's collaborate! Feel free to reach out for opportunities or just to chat.</p>
+      </div>
+
+      <div class="contact-grid reveal-left">
+        <div class="contact-info">
+          <h3 style="color: var(--c-text); margin-bottom: 24px;">Contact Information</h3>
+
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:mohamed.moaz.nasr@gmail.com" style="color: var(--c-cyan); text-decoration: none;">
+                mohamed.moaz.nasr@gmail.com
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">💬</div>
+            <div>
+              <h4>WhatsApp</h4>
+              <a href="https://wa.me/97337076519" target="_blank" style="color: var(--c-cyan); text-decoration: none;">
+                +973 37076519 (WhatsApp Only)
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">🐙</div>
+            <div>
+              <h4>GitHub</h4>
+              <a href="https://github.com/mohamedabdelazim618" target="_blank"
+                style="color: var(--c-cyan); text-decoration: none;">
+                github.com/mohamedabdelazim618
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
+  <footer>
+    <div class="container">
+      <p>Made with <span>♥</span> by Mohamed Abdelazem · 2026</p>
+      <div
+        style="display: flex; justify-content: center; gap: 20px; margin-top: 16px; font-size: 0.9rem; color: var(--c-muted);">
+        <a href="https://github.com/mohamedabdelazim618" target="_blank"
+          style="color: inherit; text-decoration: none;">GitHub</a>
+        <a href="mailto:mohamed.moaz.nasr@gmail.com" style="color: inherit; text-decoration: none;">Email</a>
+        <a href="https://wa.me/97337076519" target="_blank" style="color: inherit; text-decoration: none;">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="static/JS/ui.js"></script>
+  <script src="static/JS/main.js"></script>
+
+</body>
+
+</html>

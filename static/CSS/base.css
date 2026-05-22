@@ -1,0 +1,69 @@
+/* =========================================================
+   base.css — Design tokens, reset, layout helpers
+========================================================= */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Cairo:wght@400;600;700;900&family=Fira+Code:wght@400;500&display=swap');
+
+/* ── Tokens ─────────────────────────────────────────────── */
+:root {
+  --c-bg:       #080d1a;
+  --c-surface:  #0f1729;
+  --c-border:   rgba(255,255,255,0.08);
+  --c-text:     #e2e8f0;
+  --c-muted:    #64748b;
+  --c-purple:   #7c3aed;
+  --c-cyan:     #06b6d4;
+  --c-orange:   #f97316;
+  --c-red:      #af002d;
+
+  --grad-main:  linear-gradient(135deg, #7c3aed 0%, #06b6d4 100%);
+  --grad-warm:  linear-gradient(135deg, #ff7a18 0%, #af002d 100%);
+  --grad-text:  linear-gradient(90deg, #a78bfa, #38bdf8);
+
+  --btn-grad-1: linear-gradient(90deg, #7c3aed, #06b6d4);
+  --btn-grad-2: linear-gradient(90deg, #ff7a18, #af002d);
+  --glass:      rgba(255,255,255,0.05);
+
+  --radius-lg:  20px;
+  --radius-xl:  28px;
+}
+
+/* ── Reset ──────────────────────────────────────────────── */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html  { scroll-behavior: smooth; }
+body  {
+  font-family: 'Cairo', sans-serif;
+  background: var(--c-bg);
+  color: var(--c-text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ── Layout ─────────────────────────────────────────────── */
+.container  { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+.section    { padding: 100px 0; }
+.glass-card {
+  background: var(--glass);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-xl);
+  backdrop-filter: blur(14px);
+}
+
+/* ── Section headings ───────────────────────────────────── */
+.section-title {
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  background: var(--grad-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 12px;
+}
+.section-sub {
+  color: var(--c-muted);
+  font-size: 1.05rem;
+  margin-bottom: 60px;
+}
+
+/* ── Responsive ─────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .section { padding: 70px 0; }
+}
