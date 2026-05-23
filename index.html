@@ -7,10 +7,10 @@
   <title>Mohamed Abdelazem | Web Developer Portfolio</title>
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="/CSS/base.css" />
-  <link rel="stylesheet" href="/CSS/ui.css" />
-  <link rel="stylesheet" href="/CSS/animations.css" />
-  <link rel="stylesheet" href="/CSS/sections.css" />
+  <link rel="stylesheet" href="./CSS/base.css" />
+  <link rel="stylesheet" href="./CSS/ui.css" />
+  <link rel="stylesheet" href="./CSS/animations.css" />
+  <link rel="stylesheet" href="./CSS/sections.css" />
 </head>
 
 <body>
@@ -20,7 +20,7 @@
   ═══════════════════════════════════════ -->
   <nav>
     <div class="container">
-      <div class="nav-logo">Mohamed.dev</div>
+      <div class="nav-logo">Mohamed Abdelazem</div>
       <ul class="nav-links">
         <li><a href="#hero">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -73,7 +73,7 @@
               </svg>
               View My Projects
             </a>
-            <a href="Mohammed_Abdelazim_CV.pdf" download="Mohammed_Abdelazim_CV.pdf" class="btn btn-ghost">
+            <a href="./Mohammed_Abdelazim_CV.pdf" download="Mohammed_Abdelazim_CV.pdf" class="btn btn-ghost">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                 <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
                 <polyline points="7 10 12 15 17 10" />
@@ -112,7 +112,7 @@
         <div class="hero-photo-wrap reveal-left" style="transition-delay:.2s">
           <div class="orbit"></div>
           <div class="hero-photo-ring">
-            <div class="hero-photo-inner"><img src="static/images/profile.jpg" alt="Mohamed Abdelazem"
+            <div class="hero-photo-inner"><img src="./images/profile.jpg" alt="Mohamed Abdelazem"
                 style="width:100%;height:100%;object-fit:cover;border-radius:50%"></div>
           </div>
         </div>
@@ -229,35 +229,14 @@
       <div class="projects-grid stagger">
 
 
-        <!-- 01 Course Booking -->
+        <!-- 01 Vezeeta System -->
         <div class="project-card">
           <div class="project-preview" style="background:#0a0e1a;padding:0;overflow:hidden"><img
-              src="static\images\pro5 Screenshot.png" alt="pro5_dash"
+              src="./images/vezeeta_system Screenshot.png" alt="Vezeeta System"
               style="width:100%;height:100%;object-fit:cover;object-position:top;opacity:.92;transition:transform .4s;display:block"
               onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform=''"></div>
           <div class="project-body">
-            <div class="project-number">01 / pro5</div>
-            <h3 class="project-title">نظام حجز الدورات</h3>
-            <p class="project-desc">منصة تعليمية بنظام تسجيل دخول كامل — User auth، رفع ملفات PDF، حجز دورات تدريبية，
-              Sessions وCookies، وإعدادات آمنة بـ .env.</p>
-            <div class="tech-tags">
-              <span class="tag">Python</span>
-              <span class="tag cyan">Flask</span>
-              <span class="tag">Auth</span>
-              <span class="tag orange">File Upload</span>
-              <span class="tag">.env</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- 02 Vezeeta System -->
-        <div class="project-card">
-          <div class="project-preview" style="background:#0a0e1a;padding:0;overflow:hidden"><img
-              src="static/images/vezeeta_system Screenshot.png" alt="Vezeeta System"
-              style="width:100%;height:100%;object-fit:cover;object-position:top;opacity:.92;transition:transform .4s;display:block"
-              onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform=''"></div>
-          <div class="project-body">
-            <div class="project-number">02 / Vezeeta System</div>
+            <div class="project-number">01 / Vezeeta System</div>
             <h3 class="project-title">Doctor Appointment Booking System</h3>
             <p class="project-desc">A complete healthcare booking platform inspired by Vezeeta. Features user
               authentication, secure password hashing with Bcrypt, doctor listings, appointment booking system, and user
@@ -273,14 +252,14 @@
           </div>
         </div>
 
-        <!-- 03 Flask Calculator -->
+        <!-- 02 Flask Calculator -->
         <div class="project-card">
           <div class="project-preview" style="background:#0a0e1a;padding:0;overflow:hidden"><img
-              src="static/images/Flask calc Screenshot.png" alt="Flask Calculator"
+              src="./images/Flask calc Screenshot.png" alt="Flask Calculator"
               style="width:100%;height:100%;object-fit:cover;object-position:top;opacity:.92;transition:transform .4s;display:block"
               onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform=''"></div>
           <div class="project-body">
-            <div class="project-number">03 / Flask Calculator</div>
+            <div class="project-number">02 / Flask Calculator</div>
             <h3 class="project-title">Web-based Calculator Application</h3>
             <p class="project-desc">My first Flask project—a web-based calculator that demonstrates routing, template
               rendering with Jinja2, and form handling. Clean code architecture with separated calculation logic and
@@ -296,14 +275,14 @@
           </div>
         </div>
 
-        <!-- 04 Doctors DB -->
+        <!-- 03 Doctors DB -->
         <div class="project-card">
           <div class="project-preview" style="background:#0a0e1a;padding:0;overflow:hidden"><img
-              src="static\images\doctors_database Screenshot.png" alt="doctors database"
+              src="./images/doctors_database Screenshot.png" alt="doctors database"
               style="width:100%;height:100%;object-fit:cover;object-position:top;opacity:.92;transition:transform .4s;display:block"
               onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform=''"></div>
           <div class="project-body">
-            <div class="project-number">04 / Doctors Database</div>
+            <div class="project-number">03 / Doctors Database</div>
             <h3 class="project-title">Doctors Management Database</h3>
             <p class="project-desc">A Flask + SQLAlchemy application for managing doctors' data with full CRUD
               operations. Features HTML forms for adding, deleting, and searching doctors, plus a JSON API for
@@ -318,14 +297,14 @@
           </div>
         </div>
 
-        <!-- 05 Airport System -->
+        <!-- 04 Airport System -->
         <div class="project-card">
           <div class="project-preview" style="background:#0a0e1a;padding:0;overflow:hidden"><img
-              src="static/images/airport_system Screenshot.png" alt="Airport System"
+              src="./images/airport_system Screenshot.png" alt="Airport System"
               style="width:100%;height:100%;object-fit:cover;object-position:top;opacity:.92;transition:transform .4s;display:block"
               onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform=''"></div>
           <div class="project-body">
-            <div class="project-number">05 / Airport System</div>
+            <div class="project-number">04 / Airport System</div>
             <h3 class="project-title">Flight Management System</h3>
             <p class="project-desc">A comprehensive airport management system featuring flight scheduling, passenger
               booking, queue management, and real-time statistics. Demonstrates REST API design, OOP principles, and
@@ -341,14 +320,14 @@
           </div>
         </div>
 
-        <!-- 06 TaskFlow Project -->
+        <!-- 05 TaskFlow Project -->
         <div class="project-card">
           <div class="project-preview" style="background:#0a0e1a;padding:0;overflow:hidden"><img
-              src="static/images/taskflow_project Screenshot.png" alt="TaskFlow Project"
+              src="./images/taskflow_project Screenshot.png" alt="TaskFlow Project"
               style="width:100%;height:100%;object-fit:cover;object-position:top;opacity:.92;transition:transform .4s;display:block"
               onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform=''"></div>
           <div class="project-body">
-            <div class="project-number">06 / TaskFlow Project</div>
+            <div class="project-number">05 / TaskFlow Project</div>
             <h3 class="project-title">Task & Project Management Platform</h3>
             <p class="project-desc">My largest project—a full-featured task management platform with user
               authentication, project creation, task tracking, admin dashboard, and notifications. Demonstrates
@@ -499,8 +478,8 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="/JS/ui.js"></script>
-  <script src="/JS/main.js"></script>
+  <script src="./JS/ui.js"></script>
+  <script src="./JS/main.js"></script>
 
 </body>
 
